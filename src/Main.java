@@ -13,12 +13,12 @@ public class Main {
 
         System.out.println(String.format(
                 """ 
-                        *************************************
-                        Nombre del cliente: %s
-                        Tipo de Cuenta: %s
-                        Saldo = %.2f
-                        *************************************
-                        """, nombre, tipoDeCuenta, saldo).formatted());
+                *************************************
+                Nombre del cliente: %s
+                Tipo de Cuenta: %s
+                Saldo = %.2f
+                *************************************
+                """, nombre, tipoDeCuenta, saldo).formatted());
 
         String menu = """
                 *** Escriba el número de la opción deseada ***
